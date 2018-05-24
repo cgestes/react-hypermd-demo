@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "codemirror": "^5.38.0",
     "hypermd": "^0.3.1",
-    "react": "^16.3.2",
+    "react": "^16.4.0",
     "react-codemirror": "^1.0.0",
-    "react-dom": "^16.3.2",
+    "react-dom": "^16.4.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -14,5 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "resolutions": {
+    "codemirror": "5.38.0"
   }
 }
