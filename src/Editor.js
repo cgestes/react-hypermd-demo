@@ -35,7 +35,7 @@ export default class Editor extends Component {
 
   render() {
     const options = {
-      mode: 'text/x-hypermd',
+      mode: 'hypermd',
       // mode: 'gfm',
       theme: 'hypermd-light',
 
